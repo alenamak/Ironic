@@ -1,0 +1,23 @@
+html {
+	min-height:100%; /* всегда показываем вертикальную полосу прокрутки  */
+}
+
+header{
+	background:url(header_big.jpg) center center no-repeat; color:#fff; text-align:center;background-size:cover; padding-top:50px;padding-bottom:50px;padding-left:10px;padding-right:10px;
+} 
+
+	header>h1{
+		font-size: 3.70em;
+		font-family: 'Raleway', sans-serif; margin-bottom:20px;
+		text-shadow:5px black;
+	}
+	header>h2{font-size: 1.225em; margin-bottom:20px; font-style:italic;text-shadow:2px black;}
+	header>h3{font-size: 1em; margin-bottom:10px; font-style:italic;text-shadow:2px black;}
+body {
+	color: #404040;
+	text-align: left;
+	font-size: 1em; /* используем безопасные шрифтовые CSS стеки */
+	min-height:100%;
+	background:#f9f9f9;
+	font-family: 'Open Sans', sans-serif;
+}
